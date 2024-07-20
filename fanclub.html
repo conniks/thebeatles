@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fanclub</title>
+    <link rel="stylesheet" href="../thebeatles/css/beatles.css">
+    <script src="scripts/html5shiv.js"></script>
+	<script src="scripts/prefixfree.min.js"></script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>  
+
+<body>
+<header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="ini">Inicio</a>
+                <ul>
+                <li><a href="#fabfour" class="int">Integrantes</a></li>
+                <li><a href="#curiosidades" class="cur">Curiosidades</a></li>
+                </ul>
+            <li><a href="discografia.html" class="disc">Discografía</a>
+                <ul>
+                <li><a href="#revolver" class="rv">Revolver</a></li>
+                <li><a href="#sgtpepper" class="sgt">Sgt. Pepper's</a></li>
+                <li><a href="#abbeyroad" class="abb">Abbey Road</a></li>
+                <li><a href="#rubbersoul" class="rbs">Rubber Soul</a></li>
+                </ul>
+            </li>
+            <li><a href="fanclub.html" class="fnclub">Fanclub</a></li>
+            <li><a href="#redes" class="cont">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>Fanclub de Los Beatles</main>
+
+<section class="formulario">
+<h1>Sumate al Fanclub de The Beatles</h1>
+<h2>Completa el formulario de inscripción y recibí nuestro newsletter</h2>
+
+<form>
+<fieldset>
+        <div class="nombre">
+            <span>Nombre y Apellido:</span>
+            <input type="nombre" name="nombre" required autocomplete="on"/>
+        </div>
+        
+        <span>Email</span>
+        <input type="email" name="email">
+
+        <div class="email">
+            <span>Email:</span>
+            <input type="email" name="email" required autocomplete="on"/>
+        </div>
+       
+        <div class="news">
+            <span>Deseo recibir el Newsletter</span>
+            <input type="checkbox" name="newsletter" id="newsletter" required value="si"/>
+        </div>
+
+        <div class="checkbox-group">
+            <span>Seleccione sus temas preferidos de los Beatles:</span>
+            <label><input type="checkbox" name="temas" value="Get Back"> Get Back</label>
+            <label><input type="checkbox" name="temas" value="Help"> Help</label>
+            <label><input type="checkbox" name="temas" value="Oh Darling"> Oh Darling</label>
+            <label><input type="checkbox" name="temas" value="Hey Jude"> Hey Jude</label>
+            <label><input type="checkbox" name="temas" value="Let It Be"> Let It Be</label>
+            <label><input type="checkbox" name="temas" value="Come Together"> Come Together</label>
+        <div class="enviar">
+            <input type="submit" value="Enviar" />
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+<div id="mensajeFinal" class="mensaje-oculto">
+    <p>Muchas gracias! Su solicitud ha sido recibida. En breve, recibirá un correo con la confirmación.</p>
+</div>
+</section>
+
+<script>
+    function mostrarMensaje() {
+        document.getElementById('registroForm').style.display = 'none';
+        document.getElementById('mensajeFinal').style.display = 'block';
+        return false;
+    }
+</script>
+
+<footer>
+    <div id= "redes">
+    <h2>Seguinos en:</h2>
+    <ul>
+        <li><a id="fb" href="#">Facebook</a></li>
+        <li><a id="tw" href="#">Twitter</a></li>
+        <li><a id="yt" href="#">You Tube</a></li>   
+        </ul>   
+    </div>
+
+    <div id="autora">
+    <h3>Autora: María Constanza Le Pera &copy;</h3>
+    <ul>
+        <li>Materia: Maquetado y Desarrollo Web</li>
+        <li>Profesora: Mabel García</li>
+        <li>Entrega para TP de <abbr title=”primer”>1er</abbr> cuatrimestre de la Escuela Da Vinci 2024.</li>
+    </ul> 
+    </div>
+</footer>
+
+</body>
+</html>

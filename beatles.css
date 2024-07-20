@@ -1,0 +1,331 @@
+main, nav, header, body{display:block; width: 1366px;}
+
+main {
+    border:solid 1px transparent;
+    display: none;
+    visibility: hidden;}
+
+.banner{
+    /*border:dotted 2px blueviolet;*/
+    border:solid 0px transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: transparent url(../imagenes/idea_banner.jpg) no-repeat center center scroll;
+    height: 595px;
+    color:transparent;
+}
+
+header { /*botonera*/
+    border:dotted 1px transparent;
+    background-color: whitesmoke;
+	position: sticky;
+    top:0px;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+a {
+    /*border:dotted 2px #000000;*/
+    padding: 10px 20px;
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    /*border: double 4px violet;*/
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    /*border: dotted 2px grey;*/
+    display: inline-block;
+    list-style-type: none;
+}
+
+/*.ini{background-color: #f6d156;}
+.int{background-color: #45d1a7;}
+.cur{background-color: #F1989F;}
+.disc{background-color: darkgrey;}
+.rbs{ background-color: darkgrey;}
+.rv{ background-color: darkgrey;}
+.sgt{ background-color: darkgrey;}
+.abb{ background-color: darkgrey;}
+.fnclub{background-color: #45d1a7;}
+.cont{background-color: #9e9dff;}*/
+
+.ini{color: #F1989F;}
+.int{color: #F1989F;}
+.cur{color: #F1989F;}
+.disc{color: #9e9dff;}
+.rbs{color: #9e9dff;}
+.rv{color: #9e9dff;}
+.sgt{color: #9e9dff;}
+.abb{color: #9e9dff;}
+.fnclub{color: #45d1a7;}
+.cont{color: darkgray;}
+
+.menu ul li ul { display: none; position: absolute;}
+.menu ul li:hover ul { display: block; text-align: left; }
+.menu ul li ul li {  display: block; text-align: left; background-color: whitesmoke;}
+.menu ul li ul li:hover {color:#F1989F; background-color: white;}
+.menu ul li ul li a { padding: 10px 20px; white-space: nowrap; }
+
+details ul li{display: block;}
+
+.bodydisc.temas li{ display: block;}
+
+
+body {
+    /*border:solid 10px grey;*/
+    border:solid 0px transparent;
+    padding-bottom:50px;
+    margin:auto;
+    color: rgb(39, 39, 39);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:18px;
+    background: #000000 url(../imagenes/background.jpg);
+    background-size: cover;
+}
+
+#principal{ /*BIENVENIDOS*/
+    /*border:dotted 2px red;*/
+    justify-content: center;
+    text-align: center;
+    background: #989898;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    color: white;
+    padding: 25px 50px 50px 50px;
+}
+
+#fabfour {
+    background-color: whitesmoke;
+    color:  #202020;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding: 30px 20px;
+}
+
+#fabfour h2{color:  #202020;}
+
+.integrantes1, .integrantes2 {
+    /*border:solid 1px red;*/
+    /*display:flex;*/
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    color: #202020;
+    columns: 400px 2;
+    column-gap: 0px;
+}
+
+.integrantes1 h3 {
+    color:  #202020;
+}
+
+.integrantes2 h3 {
+    color:  #202020;
+}
+
+.Lennon, .McCartney, .Harrison, .Ringo {padding: 30px 20px;}
+
+.Lennon{ background-color: #45d1a7;} 
+.McCartney{ background-color: #9e9dff;} 
+.Harrison{ background-color:#F1989F;} 
+.Ringo{background-color:#f6d156;} 
+
+.datos { /*CURIOSIDADES*/
+    border: dotted 0.1px transparent;
+    background-color: rgb(39, 39, 39);
+    color: lightgray;
+    font-style: normal;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.datos h2{text-transform: uppercase;}
+
+#curiosidades { /*El club de los azulejos, etc...*/
+    background:rgb(39, 39, 39);
+    text-align: center;
+    color: lightgray;
+    padding: 10px 30px;
+}
+
+.video{
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: lightgray;
+}
+
+footer{
+    border:solid 1px transparent;
+    /*border: dotted 3px pink;*/
+    background-color:#454545;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style:normal;
+    font-size: 18px;
+    text-align: left;
+    color: lightgray;
+    display:block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#discografia{
+    border: solid 1px transparent;
+    background-color: whitesmoke;
+    color:#202020;}
+
+#discografia h1 {color:#202020;}
+#discografia h2 {color:#202020;}
+
+.bodydisc details{
+    text-decoration: none;
+    text-align: center;
+}
+
+.bodydisc img{
+    border:solid 1px transparent;
+    width: 400px;
+    height: auto;
+}
+
+.descripcion{
+    border:solid 1px transparent;
+    columns: 400px 2;
+    column-gap: 0px;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    padding: 20px 100px 50px 100px;
+}
+
+summary{
+    /*border: dotted 1px red;*/
+    border:solid 1px transparent;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+details{padding-bottom:30px;}
+
+.temas{background-color: #202020; font-size: 16px;}
+
+
+/*IMAGES*/
+figure {
+    border:solid 1px transparent;
+    text-align: center;
+    margin: 0;
+    padding: 15px 1px;
+    height: auto;
+    width: 100%;
+}
+
+img{
+    /*border: dotted 1px yellow;*/
+    height: 300px;
+    width: auto;
+}
+
+#curiosidades img{height: 450px;}
+.datos img{height: 400px;}
+
+
+/*HEADLINES*/
+
+h1{
+    /*border: dotted 2px white;*/
+    border:solid 1px transparent;
+    color:rgb(255, 255, 255);
+    text-align: center;
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    font-size: 60px;
+    text-shadow: 3px #000000;
+    text-transform: uppercase;
+}
+
+h2, h3, h4 {
+    padding-top:10px; 
+    padding-bottom:5px;
+    color:white;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+h2 {font-size: 30px;}
+h3 {font-size: 25px;}
+h4 {font-size: 20px;}
+
+#rubbersoul, #revolver, #sgtpepper, #abbeyroad {color: white; padding-top:20px;}
+
+#rubbersoul{background-color: #ef8d31;}
+#revolver{background-color:#9e9dff ;}
+#sgtpepper{background-color:#F1989F;}
+#abbeyroad{background-color:#45d1a7;}
+
+.formulario {
+    border: solid 2px blue;
+    background-color: #45d1a7;
+    color:whitesmoke;
+    font-size: 20px;
+    padding: 50px;
+    }
+
+.checkbox-group label { display: block;}
+    
+button {
+        width: auto;
+        padding: 20px 30px;
+        background-color: whitesmoke;
+        color: darkgrey;
+        border: none;
+        cursor: pointer;
+    }
+    
+button:hover {background-color: darkgray;}
+
+#secciones li{display: block; text-decoration: underline;}
+
+#autora h3{color:whitesmoke; font-size: 18px;}
+#autora li{
+    display:block; 
+    text-align: right;
+    padding-right: 40px;}
+
+#social a{ background: url('sprite.png') left top no-repeat; display: inline-block; width: 48px; height: 48px; overflow: hidden; text-indent: -5000px; }
+#social #facebook{ background-position: 0px 0px; }
+#social #twitter{ background-position: -48px 0px; }
+#social #youtube{ background-position: -96px 0px; }
+
+.redes {
+    border: solid 2px grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    columns: 2;
+    column-gap: 0px;
+    text-align: left;
+    font-size: 16px;
+}
